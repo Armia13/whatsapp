@@ -1,0 +1,63 @@
+body{
+    background-color: white;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+ul{
+    width: 50%;
+    margin: 0;
+    margin: 15px;
+    background-color: aliceblue
+}
+ul>li{
+    list-style: none;
+}
+
+.chat-box{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border-bottom: 1px solid rgba(128, 128, 128, 0.596);
+}
+
+img{
+    height:40px;
+    width: 40px;
+border-radius: 50px;   
+}
+
+h4,p{
+    margin: 0;
+    padding: 5px;    
+}
+
+.msg-time{
+font-size: 13px;
+
+}
+
+.msg{
+    width: 200px;
+    padding: 5px;
+}
+
+.num{
+    font-size: 15px;
+padding-top: 0px;
+}
+
+.unread{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(26, 218, 67);
+    text-align: center;
+font-size: 12px;
+font-weight: bold;
+margin: 0;
+margin-left: 45px;
+}
+
+.first-line{
+    font-weight: bold;
+}
